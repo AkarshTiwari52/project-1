@@ -1,0 +1,220 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    
+}
+#page1{
+     height: 100%;
+    width: 100%;
+    background-color:rgb(11, 11, 11);
+   
+
+}
+
+#part1{
+    height: 50%;
+    width: 100%;
+   justify-content: center;
+   align-items: center;
+  
+   
+  
+
+}
+
+.login_section_card{
+  
+  margin-left: 40%;
+    height: 86%;
+    width: 300px;
+    padding: 30px;
+    flex-direction: column;
+   display: flex;
+    border-radius: 40px 40px 40px 2px;
+     background-color: #e0e5ec;
+     
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+}
+.login_section_card-inset{
+    border-radius: 20px;
+    background-color: #e0e5ec;
+    box-shadow: inset 10px 10px 20px , -10px -10px 20px white;
+    
+}
+.login_section_card input{
+    margin: 10px ;
+    border: 0.5px solid;
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px #919191;
+
+}
+.login_section_card button{
+    height: 30px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #919191;
+}
+
+
+#part2{
+    height: 50%;
+    width: 100%;
+   
+    border: 1px;
+}
+#card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+
+}
+.card1{
+    margin: 40px;
+    height: 86%;
+    width: 300px;
+    border-radius: 10px;
+      box-shadow: 5px 10px 10px rgb(98, 97, 93);
+      
+   
+    
+}
+
+
+.card1 img{
+    height:100%;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+
+}
+.card1 video{
+    height:100%;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+.card1 h1{
+    margin: 10px;
+   
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -.004em;
+    color: #032d60;
+    
+}
+.card1 :hover{
+    color: #6da7f5;
+  
+}
+.card1 p{
+    margin: 10px;
+    font-size: 16px;
+    letter-spacing: -.004em;
+}
+.card1 a{
+    margin: 10px;
+    font-weight: lighter;
+}
+
+
+#page2{
+     height: 100%;
+    width: 100%;
+    background-color: rgb(117, 93, 140);
+}
+#part3{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(140, 167, 167);
+    border: 1px;
+}
+.about{
+    height: 50%;
+    width: 100%;
+}
+#about{
+   margin-left: 10px;
+     height: 100%;
+    width: 90%;
+}
+#about p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.contact{
+    height: 50%;
+    width: 100%;
+}
+#contact{
+    margin: 10px;
+     height: 100%;
+    width: 90%;
+}
+#contact p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+#part4{
+    height: 50%;
+    width: 100%;
+   background-color: #e0e5ec;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+}
+.video {
+   
+    height: 300px;
+    width: 400px;
+    margin: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px;
+   
+   
+}
+.video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.video img{
+    height:100%;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+
+
+
+

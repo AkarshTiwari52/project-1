@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(154, 167, 167);
+}
+.card{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    border: 1px solid;
+    
+
+}
+.card1{
+    margin: 40px;
+    height: 86%;
+    width: 300px;
+    border-radius: 10px;
+      box-shadow: 5px 10px 10px rgb(98, 97, 93);
+      
+   
+    
+}
+
+
+.card1 img{
+    height:100%;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+
+}
+.card1 video{
+    height:100%;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+.card1 h1{
+    margin: 10px;
+   
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -.004em;
+    color: #032d60;
+    
+}
+.card1 :hover{
+    color: #6da7f5;
+  
+}
+.card1 p{
+    margin: 10px;
+    font-size: 16px;
+    letter-spacing: -.004em;
+}
+.card1 a{
+    margin: 10px;
+    font-weight: lighter;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+}
